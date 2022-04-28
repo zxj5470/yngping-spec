@@ -15,7 +15,7 @@ toc::[]
 
 单字声母
 
-NOTE: 暂未完成声调标记
+NOTE: 数字声调标记部分已完成。其他位置还未按照声调进行更正。
 
 [options="header,footer,autowidth"]
 |===
@@ -29,18 +29,18 @@ NOTE: 暂未完成声调标记
 | 日 | n | n | 汝 ni²
 | 柳 | l | l | 来 lei⁵
 | 时 | θ | s | 是 sei⁷
-| 像 | s | x | 像 xieong⁷
+| 像 | ç | x | 像 xieong⁷
 | 曾 | ʦ | z | 做 zor³
-| 出 | ʦʰ | c | 厝 cuo³
+| 出 | ʦʰ | c | 厝 cu³
 | 求 | k | g | 哥 gor¹
 | 气 | kʰ | k | 开 keoui¹
 | 语 | ŋ | ng | 我 ngo²
 | 喜 | h | h | 好 hor²
+| 如 | j | y | 如 yu²
+| 舞 | w | w | 舞 wu²
+
 4+| 连读时产生的新声母
-| -- | β | w | 溪柄 kae¹-wang⁵
-| -- | θ | l | 无算mor⁵-lorng⁷
-| -- | z | y | 胰皂i⁵-yor⁷
-| -- | ʦʰ | y | 蕹菜ung³-yai³
+| -- | β | w | 溪柄 kae¹ b-wang⁵
 |===
 === 韵母
 [options="header,autowidth"]
@@ -112,39 +112,38 @@ NOTE: 暂未完成声调标记
 |===
 === 声调符号
 
-单字声调
+声调 “数字” 按《班华字典》的音调标记方式。
 
 [options="header,footer,autowidth"]
 |===
-| 调类 | 上平 | 上上 | 上去 | 上入 | 下平 | 下上 footnote:[下上调无字。] | 下去 | 下入 | 轻声
-| 数字 | a¹ | a² | a³ | ah⁴ | a⁵ | -- | a⁷ | ah⁸ | a⁰
-| 五度 | a⁵⁵ | a³³ | a²¹³ | ah²⁴ | a⁵³ | -- | a²⁴² | ah⁵ | a⁰
+| 调类 | 阴平 | 阳平 | 上 | 阳去 | 阴去 | 阳入 | 阴入 | 轻声
+| 数字 | a¹ | a² | a³ | a⁴ | a⁵ | ak⁶ | ak⁷ | a⁰
+| 五度 | a³³² | a²² | a⁴² | a⁴² | a³⁵ | ak² | ak⁵ | a⁰
 | 例字
-| 丹
+| 簪
 
-dang¹
-|胆
+zang¹ |残、钱
 
-dang²
-|旦
+zang¹、jing²
 
-dang³
-|答
+|米、古
 
-dak⁴
-|谈
+mi³、gu³
+|店、错
 
-dang⁵
-|--
-|淡
+daeing⁴、cor⁴
+|县
 
-dang⁷
-|达
+gaeing⁵
+|血、七
 
-dak⁸
-|食吓
+haek⁷、ciik⁷
+|杂、十
 
-sieh⁸ ga⁰
+zak⁷、saek⁷
+|
+
+--
 |===
 
 连读时产生的新声调
