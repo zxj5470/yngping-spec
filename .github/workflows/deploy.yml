@@ -9,21 +9,18 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
-    - name: Set up Node.js 
-      uses: actions/setup-node@v1
+    - name: Checkout repository
+      uses: actions/checkout@v2
+    - name: Install Node.js
+      uses: actions/setup-node@v2
       with:
-        node-version: '12.x'
+        node-version: '16'
     - name: Install Antora
-      run: |
-        npm i -g @antora/cli@2.2 \
-          @antora/site-generator-default@2.2
-    - name: Build
-      run: |
-        antora generate antora-playbook.yml
-        touch build/site/.nojekyll
-    - name: GitHub Pages Deploy | 部署
-      uses: maxheld83/ghpages@v0.2.1
-      env:
-        ACTIONS_DEPLOY_KEY: ${{secrets.key}}
-        GH_PAT: ${{ secrets.key }}
+      run: npm i antora
+    - name: Generate Site
+      run: npx antora antora-playbook.yml
+    - name: Publish to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.key }}
+        publish_dir: build/site
