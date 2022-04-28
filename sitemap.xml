@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://yngping.zingzeu.org/spec/v0.4.0-preview2/hukziu.html</loc>
-<lastmod>2021-03-18T07:44:40.314Z</lastmod>
+<loc>https://zxj5470.github.io/yngping-spec/spec/v0.4.0-preview2/huan.html</loc>
+<lastmod>2022-04-28T16:29:46.235Z</lastmod>
 </url>
 <url>
-<loc>https://yngping.zingzeu.org/spec/v0.4.0-preview2/main.html</loc>
-<lastmod>2021-03-18T07:44:40.314Z</lastmod>
+<loc>https://zxj5470.github.io/yngping-spec/spec/v0.4.0-preview2/hukziu.html</loc>
+<lastmod>2022-04-28T16:29:46.235Z</lastmod>
+</url>
+<url>
+<loc>https://zxj5470.github.io/yngping-spec/spec/v0.4.0-preview2/main.html</loc>
+<lastmod>2022-04-28T16:29:46.235Z</lastmod>
 </url>
 </urlset>
